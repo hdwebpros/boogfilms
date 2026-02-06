@@ -84,7 +84,7 @@ async function handleDonate(tier) {
 
       <!-- Heading -->
       <h2
-        v-gsap.whenVisible.once.splitText.chars.from="{ autoAlpha: 0, y: 60, rotateX: -90, stagger: 0.03, duration: 1 }"
+        v-gsap.whenVisible.once.chars.from="{ autoAlpha: 0, y: 60, rotateX: -90, stagger: 0.03, duration: 1 }"
         class="font-display text-4xl md:text-6xl text-film-gold tracking-[0.2em] uppercase text-center mb-6"
       >
         Support the Film
