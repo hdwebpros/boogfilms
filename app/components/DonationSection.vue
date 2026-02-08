@@ -129,7 +129,7 @@ async function handleDonate(tier) {
           <Icon name="ph:star" class="text-film-gold text-4xl mb-6 transition-transform duration-500 group-hover:scale-110" />
           <span class="font-display text-4xl text-film-gold mb-2">$20</span>
           <h3 class="font-display text-xl text-film-cream mb-3">In the Credits</h3>
-          <p class="text-film-muted text-sm mb-8 flex-1">Your name in the credits</p>
+          <p class="text-film-muted text-sm mb-8 flex-1">Used for AI credits and gets your name in the credits</p>
           <button
             :disabled="donating"
             class="w-full border border-film-gold/30 text-film-gold py-3 px-6 text-sm uppercase tracking-[0.2em] transition-all duration-300 hover:bg-film-gold hover:text-film-black hover:tracking-[0.3em] disabled:opacity-50 disabled:pointer-events-none"
@@ -143,8 +143,8 @@ async function handleDonate(tier) {
         <div class="group bg-film-charcoal/50 backdrop-blur-sm border border-film-charcoal hover:border-film-gold/30 p-10 flex flex-col items-center text-center transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-film-gold/5">
           <Icon name="ph:magnifying-glass" class="text-film-gold text-4xl mb-6 transition-transform duration-500 group-hover:scale-110" />
           <span class="font-display text-4xl text-film-gold mb-2">$100</span>
-          <h3 class="font-display text-xl text-film-cream mb-3">Deep Research</h3>
-          <p class="text-film-muted text-sm mb-8 flex-1">Advanced genealogy for the most accurate story</p>
+          <h3 class="font-display text-xl text-film-cream mb-3">AI Gen & Deep Research</h3>
+          <p class="text-film-muted text-sm mb-8 flex-1">AI Credits for us and deep genealogical research tools</p>
           <button
             :disabled="donating"
             class="w-full border border-film-gold/30 text-film-gold py-3 px-6 text-sm uppercase tracking-[0.2em] transition-all duration-300 hover:bg-film-gold hover:text-film-black hover:tracking-[0.3em] disabled:opacity-50 disabled:pointer-events-none"
